@@ -1,0 +1,83 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+page {
+  height: 100%;
+}
+
+.u-container {
+  display: flex;
+  width: 80%;
+  margin: 10rpx auto;
+  background-color: #fff;
+  border-radius: 4rpx;
+}
+
+.u-btn {
+  width: 80%;
+  padding: 10rpx;
+  margin: 10rpx auto;
+  text-align: center;
+  background-color: orange;
+  border-radius: 30rpx;
+}
+
+.detail-u-btn {
+  color: #fff;
+}
+
+.index-bottom {
+  display: flex;
+  width: 80%;
+  margin: 20rpx auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottom-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.step-tips {
+  color: #eee;
+  font-size: 26rpx;
+}
+.arrowR {
+  width: 30rpx;
+  height: 30rpx;
+}
+.step-time{
+  font-weight: bold;
+}
+.step-right{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+
+.btn.btn-view-detail {
+  margin: 16px auto 0;
+  width: 150px;
+  height: 32px;
+  border-radius: 100px;
+  border: 1px solid #0067ff;
+  font-size: 13px;
+  text-align: center;
+  color: #0067ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

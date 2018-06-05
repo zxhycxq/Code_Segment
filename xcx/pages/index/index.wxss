@@ -1,0 +1,147 @@
+.index-page{
+  min-height: 100%;
+
+}
+.cxq-u-info-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: olivedrab;
+  padding: 10px;
+}
+.cxq-u-user-img{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color:orange;
+  margin-right: 20px;
+}
+.cxq-u-info-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cxq-u-info-detail text{
+  color: #fff;
+}
+.cxq-u-info-title{
+  font-size: 36rpx;
+}
+.cxq-u-info-subtitle{
+  font-size: 24rpx;
+}
+//
+
+.cxq-u-list-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff;
+}
+
+.cxq-u-list-item-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 4px;
+
+}
+.cxq-u-list-item-wrap:not(:last-child){
+  border-bottom: 1px solid #aaa;
+
+}
+.cxq-u-list-item{
+  display: flex;
+  flex-direction: row;
+   justify-content: space-around;
+  align-items: center;
+  padding: 4px;
+}
+
+.right-icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.cxq-u-divide{
+  width: 100%;
+  height: 2px;
+  background-color: royalblue;
+  margin: 10px auto;
+}
+.cxq-u-divide-half{
+  width: 40%;
+}
+.cxq-u-divide-has-title{
+  width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  border-top: 1px solid #000;
+  text-align: center;
+  margin: 20px auto;
+}
+.cxq-u-divide-has-title text{
+  position: relative;
+  top: -14px;
+  background: #fff;
+  padding: 0 10px;
+}
+.cxq-u-cell-wrap{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10rpx;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cxq-u-cell{
+  width:29%;
+  display: flex;
+  justify-content: center;
+   border-radius: 10rpx;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #929292;
+  margin-bottom: 10px;
+}
+.cxq-u-cell-active{
+  background-color: orchid;
+}
+
+.cxq-u-cell:not(:nth-child(3)){
+  margin-right:5px;
+}
+
+.cxq-u-cell text{
+  text-align: center;
+  color: #000;
+}
+.cxq-u-cell-active text{
+  color: #fff;
+}
+.cxq-u-btn{
+  width: 200rpx;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10rpx;
+  border:1px solid #0EAEFF
+}
+.cxq-u-btn text{
+  font-size: 20px;
+   color: #0EAEFF;
+}
+/*todo 分隔线多种写法*/

@@ -1,0 +1,14 @@
+<view class="select-page">
+    <view class="cxq-u-select-wrap">
+      <view class="cxq-u-select-item"  wx:for="{{menuList}}" wx:key="{{index}}" data-index="{{index}}" bindtap="selectTab">
+          <text class="cxq-u-select-menu {{ curIndex==index?'select-menu-active':''}} ">{{menuList[index].title}}</text>
+          <image class='{{rotateRight[index]}} right-icon' src='../../images/arrowR.png' ></image>
+      </view>
+    </view>
+     <!--下拉后菜单-->
+    <view class="nav-left-secondmenu cxq-u-hid" style=" {{ menuindex == idMenu ? menustyle : field}} den">
+        <view class='nav-left-secondmenu-list' wx:for="{{menuList}}" wx:for-item="twoMenu" wx:key="id" bindtap="dosub">
+            <text class='nav-left-Secondmenu-text' style="secondMenu">{{menuList[index].content}}</text>
+        </view>
+    </view>
+</view>

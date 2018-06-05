@@ -1,0 +1,32 @@
+.cxq-u-select-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.cxq-u-select-item{
+  display: flex;
+  width: 25%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid #fff;
+
+}
+.cxq-u-select-menu{
+  border-bottom: 2px solid #fff;
+}
+.select-menu-active{
+  border-bottom: 2px solid #1e79ff;
+}
+.cxq-u-select-item:not(:last-child){
+ border-right: 1px solid #aaa;
+}
+.right-icon{
+  width: 24px;
+  height: 24px;
+  transform:rotate(90deg);
+}
+.cxq-u-hidden{
+  display: none;
+}
