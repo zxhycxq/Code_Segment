@@ -13,7 +13,7 @@
             <view class="cxq-u-list-item">
                 <image src="../../images/info.png" class="right-icon"></image>
                 <view class="cxq-u-list-item-l-title">
-                  点击我去log页面
+                    点击我去log页面
                 </view>
             </view>
             <view class="cxq-u-list-item">
@@ -28,7 +28,7 @@
             <view class="cxq-u-list-item">
                 <image src="../../images/person2.png" class="right-icon"></image>
                 <view class="cxq-u-list-item-l-title">
-                   右边没有汉字的
+                    右边没有汉字的
                 </view>
             </view>
             <view class="cxq-u-list-item">
@@ -55,15 +55,16 @@
 
     <!--通用的-->
     <view class="cxq-u-cell-wrap">
-        <view class="cxq-u-cell cxq-u-cell-active"><text>123-1</text></view>
-        <view class="cxq-u-cell"><text>123-2</text></view>
-        <view class="cxq-u-cell"><text>儿童</text></view>
-        <view class="cxq-u-cell"><text>123-4</text></view>
-        <view class="cxq-u-cell"><text>123-5</text></view>
+        <view class="cxq-u-cell cxq-u-cell-active" wx:for="">
+            123-1
+        </view>
+
     </view>
     <view class="cxq-u-divide cxq-u-divide-half"></view>
     <!--阿牛-->
-    <view class="cxq-u-btn"><text>我是按钮</text></view>
+    <view class="cxq-u-btn">
+        <text>我是按钮</text>
+    </view>
     <!--tongyong-->
     <view class="cxq-u-divide-has-title">
         <text>没有背景色的时候用</text>

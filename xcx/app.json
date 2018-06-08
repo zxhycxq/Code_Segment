@@ -23,7 +23,7 @@
         "selectedIconPath": "./images/home-on.png"
       },
       {
-        "pagePath": "pages/list/list",
+        "pagePath": "pages/select/select",
         "text": "列表",
         "iconPath": "./images/home.png",
         "selectedIconPath": "./images/home-on.png"
